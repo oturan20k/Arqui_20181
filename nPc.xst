@@ -1,5 +1,0 @@
-set -tmpdir "D:/proyectos/procesador_1/xst/projnav.tmp"
-set -xsthdpdir "D:/proyectos/procesador_1/xst"
-elaborate
--ifn nPc.prj
--ifmt mixed
