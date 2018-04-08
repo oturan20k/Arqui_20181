@@ -1,0 +1,13 @@
+AR instructionmemory arqinstructionmemory D:/procesadores/procesador_1/instructionMemory.vhd sub00/vhpl08 1522973751
+EN adder NULL D:/procesadores/procesador_1/adder.vhd sub00/vhpl02 1523153625
+AR npc behavioral D:/proyectos/procesador_1/nPc.vhd sub00/vhpl01 1522796547
+AR instructionmemory behavioral D:/procesadores/procesador_1/instructionMemory.vhd sub00/vhpl05 1522969021
+AR unidad_control behavioral D:/procesadores/procesador_1/Unidad_Control.vhd sub00/vhpl10 1523054373
+EN reg_file NULL D:/procesadores/procesador_1/reg_file.vhd sub00/vhpl06 1523052903
+EN unidad_control NULL D:/procesadores/procesador_1/Unidad_Control.vhd sub00/vhpl09 1523054372
+EN instructionmemory NULL D:/procesadores/procesador_1/instructionMemory.vhd sub00/vhpl04 1522973750
+EN npc NULL D:/proyectos/procesador_1/nPc.vhd sub00/vhpl00 1522796546
+AR adder behavioral D:/procesadores/procesador_1/adder.vhd sub00/vhpl03 1523153626
+AR alu behavioral D:/procesadores/procesador_1/Alu.vhd sub00/vhpl12 1523055868
+AR reg_file behavioral D:/procesadores/procesador_1/reg_file.vhd sub00/vhpl07 1523052904
+EN alu NULL D:/procesadores/procesador_1/Alu.vhd sub00/vhpl11 1523055867

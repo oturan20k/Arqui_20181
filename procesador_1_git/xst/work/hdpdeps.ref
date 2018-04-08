@@ -1,0 +1,37 @@
+V3 20
+FL C:/Users/utp/Desktop/proyectos/procesador_1/nPc.vhd 2018/04/02.19:53:28 P.20131013
+FL D:/procesadores/procesador_1/adder.vhd 2018/04/07.21:13:43 P.20131013
+EN work/adder 1523153625 FL D:/procesadores/procesador_1/adder.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/adder/Behavioral 1523153626 \
+      FL D:/procesadores/procesador_1/adder.vhd EN work/adder 1523153625
+FL D:/procesadores/procesador_1/Alu.vhd 2018/04/06.18:04:21 P.20131013
+EN work/Alu 1523055867 FL D:/procesadores/procesador_1/Alu.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/NUMERIC_STD 1381692181
+AR work/Alu/Behavioral 1523055868 \
+      FL D:/procesadores/procesador_1/Alu.vhd EN work/Alu 1523055867
+FL D:/procesadores/procesador_1/instructionMemory.vhd 2018/04/05.18:48:02 P.20131013
+EN work/instructionMemory 1522973750 \
+      FL D:/procesadores/procesador_1/instructionMemory.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB std/TEXTIO 1381692176
+AR work/instructionMemory/arqInstructionMemory 1522973751 \
+      FL D:/procesadores/procesador_1/instructionMemory.vhd \
+      EN work/instructionMemory 1522973750
+FL D:/procesadores/procesador_1/reg_file.vhd 2018/04/06.17:14:57 P.20131013
+EN work/reg_file 1523052903 FL D:/procesadores/procesador_1/reg_file.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/reg_file/Behavioral 1523052904 \
+      FL D:/procesadores/procesador_1/reg_file.vhd EN work/reg_file 1523052903
+FL D:/procesadores/procesador_1/Unidad_Control.vhd 2018/04/06.17:39:27 P.20131013
+EN work/Unidad_Control 1523054372 \
+      FL D:/procesadores/procesador_1/Unidad_Control.vhd PB ieee/std_logic_1164 1381692176
+AR work/Unidad_Control/Behavioral 1523054373 \
+      FL D:/procesadores/procesador_1/Unidad_Control.vhd EN work/Unidad_Control 1523054372
+FL D:/proyectos/procesador_1/adder.vhd 2018/04/03.19:22:45 P.20131013
+FL D:/proyectos/procesador_1/nPc.vhd 2018/04/02.18:19:10 P.20131013
+EN work/nPc 1522796546 FL D:/proyectos/procesador_1/nPc.vhd PB ieee/std_logic_1164 1381692176
+AR work/nPc/Behavioral 1522796547 \
+      FL D:/proyectos/procesador_1/nPc.vhd EN work/nPc 1522796546
