@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "D:/procesadores/procesador_1/TB_adder_isim_beh.exe" -prj "D:/procesadores/procesador_1/TB_adder_beh.prj" "work.TB_adder" 
