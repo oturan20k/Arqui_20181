@@ -1,2 +1,0 @@
-vhdl isim_temp "instructionMemory.vhd"
-vhdl isim_temp "TB_instructionMemory.vhd"
