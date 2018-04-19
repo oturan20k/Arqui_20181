@@ -1,0 +1,54 @@
+V3 35
+FL D:/procesadores/procesador_1/adder.vhd 2018/04/07.21:13:43 P.20131013
+EN work/adder 1524177611 FL D:/procesadores/procesador_1/adder.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/adder/Behavioral 1524177612 \
+      FL D:/procesadores/procesador_1/adder.vhd EN work/adder 1524177611
+FL D:/procesadores/procesador_1/Alu.vhd 2018/04/16.19:17:52 P.20131013
+EN work/Alu 1524177625 FL D:/procesadores/procesador_1/Alu.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/NUMERIC_STD 1381692181
+AR work/Alu/Behavioral 1524177626 \
+      FL D:/procesadores/procesador_1/Alu.vhd EN work/Alu 1524177625
+FL D:/procesadores/procesador_1/instructionMemory.vhd 2018/04/19.13:23:26 P.20131013
+EN work/instructionMemory 1524177615 \
+      FL D:/procesadores/procesador_1/instructionMemory.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB std/TEXTIO 1381692176
+AR work/instructionMemory/arqInstructionMemory 1524177616 \
+      FL D:/procesadores/procesador_1/instructionMemory.vhd \
+      EN work/instructionMemory 1524177615
+FL D:/procesadores/procesador_1/MultiPlex.vhd 2018/04/16.19:20:09 P.20131013
+EN work/MultiPlex 1524177621 FL D:/procesadores/procesador_1/MultiPlex.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/MultiPlex/Behavioral 1524177622 \
+      FL D:/procesadores/procesador_1/MultiPlex.vhd EN work/MultiPlex 1524177621
+FL D:/procesadores/procesador_1/nPc.vhd 2018/04/03.18:02:44 P.20131013
+EN work/nPc 1524177613 FL D:/procesadores/procesador_1/nPc.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/nPc/Behavioral 1524177614 \
+      FL D:/procesadores/procesador_1/nPc.vhd EN work/nPc 1524177613
+FL D:/procesadores/procesador_1/Procesador_conectado.vhd 2018/04/19.12:36:20 P.20131013
+EN work/Procesador_conectado 1524177627 \
+      FL D:/procesadores/procesador_1/Procesador_conectado.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Procesador_conectado/Behavioral 1524177628 \
+      FL D:/procesadores/procesador_1/Procesador_conectado.vhd \
+      EN work/Procesador_conectado 1524177627 CP adder CP nPc CP instructionMemory \
+      CP Unidad_Control CP reg_file CP MultiPlex CP SEU CP Alu
+FL D:/procesadores/procesador_1/reg_file.vhd 2018/04/16.19:48:06 P.20131013
+EN work/reg_file 1524177619 FL D:/procesadores/procesador_1/reg_file.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/reg_file/Behavioral 1524177620 \
+      FL D:/procesadores/procesador_1/reg_file.vhd EN work/reg_file 1524177619
+FL D:/procesadores/procesador_1/SEU.vhd 2018/04/16.19:40:49 P.20131013
+EN work/SEU 1524177623 FL D:/procesadores/procesador_1/SEU.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/SEU/Behavioral 1524177624 \
+      FL D:/procesadores/procesador_1/SEU.vhd EN work/SEU 1524177623
+FL D:/procesadores/procesador_1/Unidad_Control.vhd 2018/04/06.17:39:27 P.20131013
+EN work/Unidad_Control 1524177617 \
+      FL D:/procesadores/procesador_1/Unidad_Control.vhd PB ieee/std_logic_1164 1381692176
+AR work/Unidad_Control/Behavioral 1524177618 \
+      FL D:/procesadores/procesador_1/Unidad_Control.vhd EN work/Unidad_Control 1524177617

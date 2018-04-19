@@ -1,0 +1,1 @@
+vhdtdtfi -prj procesador_1 -o D:/procesadores/procesador_1/MultiPlex.vhi -module MultiPlex -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work MultiPlex.vhd 

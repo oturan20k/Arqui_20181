@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="procesador_1.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Procesador_conectado.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Procesador_conectado.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Procesador_conectado.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Procesador_conectado.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Procesador_conectado.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Procesador_conectado.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Procesador_conectado.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Procesador_conectado.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Procesador_conectado_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Procesador_conectado_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_procesador_conectado_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TB_procesador_conectado_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TB_procesador_conectado_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TB_procesador_conectado_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1524177537" xil_pn:in_ck="-41781948159695263" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1524177537">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Alu.vhd"/>
+      <outfile xil_pn:name="MultiPlex.vhd"/>
+      <outfile xil_pn:name="Procesador_conectado.vhd"/>
+      <outfile xil_pn:name="SEU.vhd"/>
+      <outfile xil_pn:name="TB_Alu.vhd"/>
+      <outfile xil_pn:name="TB_MultiPlex.vhd"/>
+      <outfile xil_pn:name="TB_SEU.vhd"/>
+      <outfile xil_pn:name="TB_Unidad_Control.vhd"/>
+      <outfile xil_pn:name="TB_adder.vhd"/>
+      <outfile xil_pn:name="TB_instructionMemory.vhd"/>
+      <outfile xil_pn:name="TB_nPc.vhd"/>
+      <outfile xil_pn:name="TB_procesador_conectado.vhd"/>
+      <outfile xil_pn:name="TB_reg_file.vhd"/>
+      <outfile xil_pn:name="Unidad_Control.vhd"/>
+      <outfile xil_pn:name="adder.vhd"/>
+      <outfile xil_pn:name="instructionMemory.vhd"/>
+      <outfile xil_pn:name="nPc.vhd"/>
+      <outfile xil_pn:name="reg_file.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1524177544" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5973453816013578292" xil_pn:start_ts="1524177544">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524177544" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5746341647978170574" xil_pn:start_ts="1524177544">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524177544" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8945058609145129822" xil_pn:start_ts="1524177544">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524177544" xil_pn:in_ck="-41781948159695263" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1524177544">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Alu.vhd"/>
+      <outfile xil_pn:name="MultiPlex.vhd"/>
+      <outfile xil_pn:name="Procesador_conectado.vhd"/>
+      <outfile xil_pn:name="SEU.vhd"/>
+      <outfile xil_pn:name="TB_Alu.vhd"/>
+      <outfile xil_pn:name="TB_MultiPlex.vhd"/>
+      <outfile xil_pn:name="TB_SEU.vhd"/>
+      <outfile xil_pn:name="TB_Unidad_Control.vhd"/>
+      <outfile xil_pn:name="TB_adder.vhd"/>
+      <outfile xil_pn:name="TB_instructionMemory.vhd"/>
+      <outfile xil_pn:name="TB_nPc.vhd"/>
+      <outfile xil_pn:name="TB_procesador_conectado.vhd"/>
+      <outfile xil_pn:name="TB_reg_file.vhd"/>
+      <outfile xil_pn:name="Unidad_Control.vhd"/>
+      <outfile xil_pn:name="adder.vhd"/>
+      <outfile xil_pn:name="instructionMemory.vhd"/>
+      <outfile xil_pn:name="nPc.vhd"/>
+      <outfile xil_pn:name="reg_file.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1524177551" xil_pn:in_ck="-41781948159695263" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-409350476818339974" xil_pn:start_ts="1524177544">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TB_procesador_conectado_beh.prj"/>
+      <outfile xil_pn:name="TB_procesador_conectado_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1524177552" xil_pn:in_ck="-5747771058072093979" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8005187605887324121" xil_pn:start_ts="1524177551">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="TB_procesador_conectado_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+    </transform>
+    <transform xil_pn:end_ts="1524177606" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="93275509217217094" xil_pn:start_ts="1524177606">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524177606" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="8945058609145129822" xil_pn:start_ts="1524177606">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524177606" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1524177606">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524177606" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="4601641470389859460" xil_pn:start_ts="1524177606">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524177606" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280845075520" xil_pn:start_ts="1524177606">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524177606" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="2729819000539476200" xil_pn:start_ts="1524177606">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524177635" xil_pn:in_ck="4465224500225469970" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-824833395235916357" xil_pn:start_ts="1524177606">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Procesador_conectado.lso"/>
+      <outfile xil_pn:name="Procesador_conectado.ngc"/>
+      <outfile xil_pn:name="Procesador_conectado.ngr"/>
+      <outfile xil_pn:name="Procesador_conectado.prj"/>
+      <outfile xil_pn:name="Procesador_conectado.stx"/>
+      <outfile xil_pn:name="Procesador_conectado.syr"/>
+      <outfile xil_pn:name="Procesador_conectado.xst"/>
+      <outfile xil_pn:name="Procesador_conectado_vhdl.prj"/>
+      <outfile xil_pn:name="Procesador_conectado_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

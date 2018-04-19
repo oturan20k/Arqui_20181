@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/procesadores/procesador_1/Procesador_conectado.xst" -ofn "D:/procesadores/procesador_1/Procesador_conectado.syr" 
