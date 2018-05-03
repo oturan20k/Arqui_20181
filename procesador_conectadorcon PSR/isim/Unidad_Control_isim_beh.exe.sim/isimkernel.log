@@ -1,0 +1,29 @@
+Command line:
+   Unidad_Control_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  50453
+
+Mon Apr 30 19:55:28 2018
+
+
+ Elaboration Time: 0.1092 sec
+
+ Current Memory Usage: 667.455 Meg
+
+ Total Signals          : 3
+ Total Nets             : 14
+ Total Signal Drivers   : 1
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 1
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 374
+Total Line Count : 23
+
+ Total Simulation Time: 0.1248 sec
+
+ Current Memory Usage: 667.455 Meg
+
+Mon Apr 30 19:59:41 2018
+

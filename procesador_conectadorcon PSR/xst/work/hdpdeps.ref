@@ -1,0 +1,4 @@
+V3 3
+EN work/PSR 0 FL D:/procesadores/procesador_1/PSR.vhd PB ieee/std_logic_1164 1381692176
+AR work/PSR/Behavioral 0 \
+      FL D:/procesadores/procesador_1/PSR.vhd EN work/PSR 0
