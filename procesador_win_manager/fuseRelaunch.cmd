@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/procesadores/procesador_1/TB_win_isim_beh.exe" -prj "D:/procesadores/procesador_1/TB_win_beh.prj" "work.TB_win" 
