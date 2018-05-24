@@ -1,0 +1,49 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/procesadores/procesador_1/TB_procesador_conectado_isim_beh.exe -prj D:/procesadores/procesador_1/TB_procesador_conectado_beh.prj work.TB_procesador_conectado 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/procesadores/procesador_1/Win_Manager.vhd" into library work
+Parsing VHDL file "D:/procesadores/procesador_1/Unidad_Control.vhd" into library work
+Parsing VHDL file "D:/procesadores/procesador_1/SEU.vhd" into library work
+Parsing VHDL file "D:/procesadores/procesador_1/reg_file.vhd" into library work
+Parsing VHDL file "D:/procesadores/procesador_1/PSR_Mod.vhd" into library work
+Parsing VHDL file "D:/procesadores/procesador_1/PSR.vhd" into library work
+Parsing VHDL file "D:/procesadores/procesador_1/nPc.vhd" into library work
+Parsing VHDL file "D:/procesadores/procesador_1/MUX0.vhd" into library work
+Parsing VHDL file "D:/procesadores/procesador_1/MultiPlex.vhd" into library work
+Parsing VHDL file "D:/procesadores/procesador_1/instructionMemory.vhd" into library work
+Parsing VHDL file "D:/procesadores/procesador_1/DM.vhd" into library work
+Parsing VHDL file "D:/procesadores/procesador_1/Alu.vhd" into library work
+Parsing VHDL file "D:/procesadores/procesador_1/adder.vhd" into library work
+Parsing VHDL file "D:/procesadores/procesador_1/Procesador_conectado.vhd" into library work
+Parsing VHDL file "D:/procesadores/procesador_1/TB_procesador_conectado.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling architecture behavioral of entity adder [adder_default]
+Compiling architecture behavioral of entity nPc [npc_default]
+Compiling architecture arqinstructionmemory of entity instructionMemory [instructionmemory_default]
+Compiling architecture behavioral of entity Unidad_Control [unidad_control_default]
+Compiling architecture behavioral of entity reg_file [reg_file_default]
+Compiling architecture behavioral of entity Win_Manager [win_manager_default]
+Compiling architecture behavioral of entity MultiPlex [multiplex_default]
+Compiling architecture behavioral of entity SEU [seu_default]
+Compiling architecture behavioral of entity Alu [alu_default]
+Compiling architecture behavioral of entity PSR_Mod [psr_mod_default]
+Compiling architecture behavioral of entity PSR [psr_default]
+Compiling architecture behavioral of entity DM [dm_default]
+Compiling architecture behavioral of entity MUX0 [mux0_default]
+Compiling architecture behavioral of entity Procesador_conectado [procesador_conectado_default]
+Compiling architecture behavior of entity tb_procesador_conectado
+Time Resolution for simulation is 1ps.
+Waiting for 13 sub-compilation(s) to finish...
+Compiled 35 VHDL Units
+Built simulation executable D:/procesadores/procesador_1/TB_procesador_conectado_isim_beh.exe
+Fuse Memory Usage: 36636 KB
+Fuse CPU Usage: 1934 ms
